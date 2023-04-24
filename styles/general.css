@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color: white;
+  background-color: rgb(30, 29, 29);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(221, 205, 205);
+}
+
