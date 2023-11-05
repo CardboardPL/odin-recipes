@@ -8,18 +8,57 @@
   </head>
 
   <body>
-    <header>
-      <h1>Odin Recipes</h1>
-      <button type="button" id="toggle-menu" aria-label="Toggle Menu"><img id="hamburger-menu" src="./icons/hamburger-menu.svg" alt="Hamburger Menu"></button>
+    <header id="header-menu-bar" aria-label="Header Menu Bar">
+      <a href="#"><h1>Odin Recipes</h1></a>
+      <button type="button" id="toggle-menu" aria-label="Toggle Menu Navigation"><img id="hamburger-menu" src="./icons/hamburger-menu.svg" alt="Hamburger Menu"></button>
     </header>
-    <main>
 
-      <h2>Featured Recipes</h2>
-      <ul>
-        <li><a href="recipes/honey-glazed-chicken.html">Honey Glazed Chicken</a></li>
-        <li><a href="recipes/korean-ground-beef-bowl.html">Korean Ground Beef Bowl</a></li>
-        <li><a href="recipes/margherita-pizza.html">Margherita Pizza</a></li>
-      </ul>
+    <main>
+      <article>
+        <section id="featured-recipes-section" aria-label="Featured Recipes Section">
+          <h2>Featured Recipes</h2>
+          <ul id="featured-recipes-list" aria-label="Featured Recipes List">
+            <li class="featured-recipe">
+              <a href="recipes/korean-ground-beef-bowl.html">
+                <img src="images/korean-ground-beef-bowl/korean-ground-beef-final-product.webp" alt="Korean Ground Beef Bowl" class="featured-recipe-img">
+                <h3>Korean Ground Beef Bowl</h3>
+                <p>Honey glazed chicken is a delicious dish made by coating chicken in a sweet and sticky glaze made from honey, soy sauce,
+                  garlic, and other seasonings, and then baking or grilling until the chicken is cooked through and the glaze is
+                  caramelized. The result is juicy and tender chicken with a golden brown, crispy exterior and a rich, savory-sweet
+                  flavor. This dish is perfect for a quick and easy weeknight dinner or for entertaining guests.</p>
+              </a>
+            </li>
+
+            <li class="featured-recipe">
+              <a href="recipes/honey-glazed-chicken.html">
+                <img src="images/honey-glazed-chicken/honey-glazed-chicken-final-product.webp" alt="Honey Glazed Chicken" class="featured-recipe-img">
+                <h3>Honey Glazed Chicken</h3>
+              </a>
+            </li>
+            
+            <li class="featured-recipe">
+              <a href="recipes/margherita-pizza.html">
+                <img src="images/margherita-pizza/margherita-pizza.png" alt="Margherita Pizza" class="featured-recipe-img">
+                <h3>Margherita Pizza</h3>
+              </a>
+            </li>
+
+            <li class="featured-recipe">
+              <a href="recipes/margherita-pizza.html">
+                <img src="images/margherita-pizza/margherita-pizza.png" alt="Placeholder" class="featured-recipe-img">
+                <h3>Placeholder</h3>
+              </a>
+            </li>
+
+            <li class="featured-recipe">
+              <a href="recipes/margherita-pizza.html">
+                <img src="images/margherita-pizza/margherita-pizza.png" alt="Placeholder" class="featured-recipe-img">
+                <h3>Placeholder</h3>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
     </main>
   </body>
 </html>
